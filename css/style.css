@@ -446,3 +446,210 @@ nav ul{
 }
 
 }
+/* ===========================
+        ABOUT
+=========================== */
+
+.about{
+
+    padding:110px 8%;
+
+    background:var(--bg);
+
+}
+
+.about-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:60px;
+
+    flex-wrap:wrap;
+
+}
+
+.about-text{
+
+    flex:1;
+
+}
+
+.about-text h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.about-text p{
+
+    line-height:2;
+
+    color:var(--gray);
+
+    margin-bottom:20px;
+
+}
+
+.skills-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+.projects{
+
+padding:110px 8%;
+
+}
+
+.project-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.project-card{
+
+background:var(--card);
+
+padding:35px;
+
+border-radius:20px;
+
+border-top:4px solid var(--gold);
+
+text-align:center;
+
+transition:.4s;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:var(--shadow);
+
+}
+
+.project-card h2{
+
+margin:20px 0;
+
+}
+
+.project-card p{
+
+color:var(--gray);
+
+line-height:1.8;
+
+}
+/* ===========================
+        SKILLS
+=========================== */
+
+.skills{
+
+    padding:110px 8%;
+
+    background:var(--bg);
+
+}
+
+.skills-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+.skill-card{
+
+    background:var(--card);
+
+    padding:35px;
+
+    border-radius:20px;
+
+    border-top:4px solid var(--gold);
+
+    transition:.35s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.skill-card h3{
+
+    margin:20px 0;
+
+}
+
+.skill-bar{
+
+    width:100%;
+
+    height:12px;
+
+    background:#444;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.skill-bar div{
+
+    height:100%;
+
+    background:linear-gradient(90deg,#d4af37,#f1d97a);
+
+    position:relative;
+
+    border-radius:20px;
+
+}
+
+.skill-bar span{
+
+    position:absolute;
+
+    right:10px;
+
+    top:-28px;
+
+    color:white;
+
+    font-size:14px;
+
+}
